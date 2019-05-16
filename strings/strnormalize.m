@@ -1,0 +1,13 @@
+function str = strnormalize(str)
+	str = strrep(str, 'á', 'a')
+	str = strrep(str, 'Á', 'A')
+	str = strrep(str, 'é', 'e')
+	str = strrep(str, 'É', 'E')
+	str = strrep(str, 'í', 'i')
+	str = strrep(str, 'Í', 'I')
+	str = strrep(str, 'ó', 'o')
+	str = strrep(str, 'Ó', 'O')
+	str = strrep(str, 'ú', 'u')
+	str = strrep(str, 'Ú', 'U')
+	str = strrep(str, 'ñ', 'n')
+end
